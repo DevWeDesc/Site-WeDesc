@@ -6,3 +6,10 @@ export interface LiProps {
   selected?: string;
   onClick?: () => void;
 }
+
+export interface CardsProps {
+  cloud: string;
+  image: string;
+  title: string;
+  description: string;
+}
