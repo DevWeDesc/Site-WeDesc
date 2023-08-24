@@ -2,7 +2,7 @@ import { CardsProps } from "../../interfaces/interfaces";
 
 export const Cards = ({ cloud, image, title, description }: CardsProps) => {
   return (
-    <div className="w-[266px] h-[768px] rounded-[13px] flex relative bg-[#57c2d5]">
+    <div className="w-[266px] h-[768px] rounded-[13px] flex relative backdrop-brightness-125">
       <img
         src={cloud}
         className="absolute w-[185px] h-[67px] rotate-180"
@@ -12,14 +12,25 @@ export const Cards = ({ cloud, image, title, description }: CardsProps) => {
         <div className="w-24 h-24 rounded-full flex items-center justify-center bg-white">
           <img src={image} alt="" />
         </div>
-        <p>{title}</p>
-        <p>{description}</p>
+        <div className="pt-[30px] text-center text-white px-[36px] flex flex-col gap-8">
+          <p className="font-bold">{title}</p>
+          <p>{description}</p>
+        </div>
       </div>
       <img
         src={cloud}
         className="absolute w-[185px] h-[67px] bottom-[0px] right-[0px]"
         alt=""
       />
+      <button
+        className={`absolute bottom-[-25px] transition-colors py-3 font-bold px-4 rounded-full left-[12%] ${
+          cloud != "../../assets/Rectangle 2 (1).png"
+            ? "bg-[#FECC09]"
+            : "bg-[#0CC0DF]"
+        }`}
+      >
+        Solicitar um Orçamento
+      </button>
     </div>
   );
 };
