@@ -6,6 +6,7 @@ import Img3 from "../../assets/Vector (1).png";
 import Img4 from "../../assets/Vector (2).png";
 import CloudWhite from "../../assets/Rectangle 2.png";
 import CloudBlue from "../../assets/Rectangle 2 (1).png";
+import { CarePlans } from "../CarePlans/CarePlans";
 
 export const Services = () => {
   return (
@@ -59,6 +60,7 @@ export const Services = () => {
           }
         />
       </div>
+      <CarePlans />
     </div>
   );
 };
