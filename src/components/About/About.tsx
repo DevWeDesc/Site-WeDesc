@@ -1,12 +1,13 @@
 import BoxImage from "../../assets/caixinha.png";
 import lineService from "../../assets/Vector 10.png";
 import Rectangle from "../../assets/Rectangle 42.png";
+import { Services } from "../Services/Services";
 
 export const About = () => {
   return (
     <div className="w-full">
       <p className="m-auto mt-[40px] h-[1px] w-[1254px] bg-[#84CC16] mb-[40px]"></p>
-      <div className="flex justify-between w-full">
+      <div className="flex flex-col justify-between w-full">
         <div className="grid grid-cols-2 gap-10 relative max-w-[1460px] m-auto">
           <div className="z-[1]">
             <img src={BoxImage} alt="" />
@@ -31,8 +32,9 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <img src={lineService} className="absolute pt-[380px] w-full " alt="" />
-        <img src={Rectangle} className="absolute pt-[422px] w-full" alt="" />
+        <img src={lineService} className="absolute pt-[360px] w-full " alt="" />
+        <img src={Rectangle} className="absolute pt-[402px] w-full" alt="" />
+        <Services />
       </div>
     </div>
   );
