@@ -7,7 +7,7 @@ export const CarePlans = () => {
         <div className="w-full col-span-3">
           <SwipeableTextMobileStepper />
         </div>
-        <div className="flex gap-10 flex-col items-center p-8 col-span-2">
+        <div className="flex gap-10 flex-col items-center p-8 col-span-2 justify-center">
           <h1 className="text-white font-bold text-[40px]">
             Nossos Planos de atendimento
           </h1>
