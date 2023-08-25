@@ -9,7 +9,7 @@ import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import Logo from "../../assets/LogoWeDesc.png";
-import { CardPlans } from "../CardPlans/CardPlans";
+import { CardCarouselPlans } from "../CardCarouselPlans/CardCarouselPlans";
 import Arrow from "../../assets/Vector (3).png";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -120,7 +120,7 @@ function SwipeableTextMobileStepper() {
                       width: "100%",
                     }}
                   >
-                    <CardPlans
+                    <CardCarouselPlans
                       image={step.imgPath}
                       title={step.title}
                       description={step.description}
@@ -138,7 +138,7 @@ function SwipeableTextMobileStepper() {
                       width: "100%",
                     }}
                   >
-                    <CardPlans
+                    <CardCarouselPlans
                       image={step.imgPath}
                       title={step.title}
                       description={step.description}

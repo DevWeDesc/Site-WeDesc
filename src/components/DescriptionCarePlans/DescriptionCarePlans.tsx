@@ -1,5 +1,5 @@
-import React from "react";
 import Rocket from "../../assets/Vector (4).png";
+import { CardPlans } from "../CardPlans/CardPlans";
 
 export const DescriptionCarePlans = () => {
   return (
@@ -17,6 +17,7 @@ export const DescriptionCarePlans = () => {
           os processos de trabalho.
         </p>
       </div>
+      <CardPlans />
     </div>
   );
 };

@@ -23,3 +23,10 @@ export interface ICardsPlans {
   Bgcolor: string;
   color: string;
 }
+
+export interface ICardPlans {
+  imagePlans: string;
+  image: string;
+  title: string;
+  description: string;
+}
