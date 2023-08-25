@@ -34,6 +34,8 @@ export const Services = () => {
           description={
             "Colaboração e produtividade de equipes locais ou em Home Office com alta disponibilidade, mobilidade e segurança.Provedor de Soluções Cloud do Microsoft 365;Provedor de Soluções Acronis Cyber Protection;Virtualização de aplicações e hospedagem Cloud."
           }
+          Bgcolor="#FECC09"
+          color="#000"
         />
         <Cards
           cloud={CloudBlue}
@@ -42,6 +44,8 @@ export const Services = () => {
           description={
             "Especialista de tecnologia apoiando seus planos estratégicos em soluções para expandir e garantir seu negócio.\n Time de sucesso do cliente acompanhando e garantindo qualidade na entrega de nossos serviços; \nConsultor especializado apoiando nossos clientes na jornada de descoberta e parceria com as mais variadas ofertas de tecnologia de mercado."
           }
+          Bgcolor="#0CC0DF"
+          color={"#FFF"}
         />
         <Cards
           cloud={CloudWhite}
@@ -50,6 +54,8 @@ export const Services = () => {
           description={
             "Atendimento especializado pronto para ajudar a sua equipe a produzir.\nGestão de Servidores e Infraestrutura;\nPrevenção a acidentes;\nAtendimento remoto e local;\nPlanos escaláveis ao seu negócio e orçamento."
           }
+          Bgcolor="#FECC09"
+          color="#000"
         />
         <Cards
           cloud={CloudBlue}
@@ -58,6 +64,8 @@ export const Services = () => {
           description={
             "Cuidados com a integridade e continuidade de seu negócio.\n\nMonitoramento e proteção de Servidores e Estações;\n\nAções proativas e preventivas para infraestrutura de rede;\n\nContinuidade de negócios;\n\nBackup e criptografia de dados."
           }
+          Bgcolor="#0CC0DF"
+          color="#FFF"
         />
       </div>
       <CarePlans />

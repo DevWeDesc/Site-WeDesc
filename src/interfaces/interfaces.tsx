@@ -12,4 +12,6 @@ export interface CardsProps {
   image: string;
   title: string;
   description: string;
+  Bgcolor: string;
+  color: string;
 }

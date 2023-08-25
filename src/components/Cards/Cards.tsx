@@ -1,6 +1,14 @@
 import { CardsProps } from "../../interfaces/interfaces";
 
-export const Cards = ({ cloud, image, title, description }: CardsProps) => {
+export const Cards = ({
+  cloud,
+  image,
+  title,
+  description,
+  Bgcolor,
+  color,
+}: CardsProps) => {
+  console.log(color.substring(0, 4));
   return (
     <div className="w-[266px] h-[768px] rounded-[13px] flex relative backdrop-brightness-125">
       <img
@@ -23,11 +31,8 @@ export const Cards = ({ cloud, image, title, description }: CardsProps) => {
         alt=""
       />
       <button
-        className={`absolute bottom-[-25px] transition-colors py-3 font-bold px-4 rounded-full left-[12%] ${
-          cloud != "../../assets/Rectangle 2 (1).png"
-            ? "bg-[#FECC09]"
-            : "bg-[#0CC0DF]"
-        }`}
+        style={{ color: color }}
+        className={`absolute bottom-[-25px] transition-colors hover:brightness-105 py-3 font-bold px-4 rounded-full left-[12%] bg-[${Bgcolor}]`}
       >
         Solicitar um Orçamento
       </button>
