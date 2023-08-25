@@ -31,8 +31,8 @@ export const Cards = ({
         alt=""
       />
       <button
-        style={{ color: color }}
-        className={`absolute bottom-[-25px] transition-colors hover:brightness-105 py-3 font-bold px-4 rounded-full left-[12%] bg-[${Bgcolor}]`}
+        style={{ color: color, backgroundColor: Bgcolor }}
+        className={`absolute bottom-[-25px] transition-colors hover:brightness-105 py-3 font-bold px-4 rounded-full left-[12%]`}
       >
         Solicitar um Orçamento
       </button>

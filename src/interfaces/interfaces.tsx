@@ -15,3 +15,11 @@ export interface CardsProps {
   Bgcolor: string;
   color: string;
 }
+
+export interface ICardsPlans {
+  image: string;
+  title: string;
+  description: string;
+  Bgcolor: string;
+  color: string;
+}
