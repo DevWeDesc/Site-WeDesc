@@ -12,7 +12,7 @@ export const Services = () => {
   return (
     <div className="flex flex-col gap-7 relative max-w-[1460px] px-[96px] m-auto">
       <div>
-        <h1 className="flex items-center justify-center text-[80px] font-bold text-white mt-16">
+        <h1 className="flex items-center justify-center text-[80px] font-bold text-white mt-5">
           Serviços <img src={Rocket} alt="" />
         </h1>
         <div className="flex justify-center">
@@ -26,7 +26,7 @@ export const Services = () => {
           </p>
         </div>
       </div>
-      <div className="flex w-full gap-[66px] mt-10 justify-between">
+      <div className="flex w-full gap-[66px] mt-5 justify-between">
         <Cards
           cloud={CloudWhite}
           image={Img1}
@@ -37,6 +37,7 @@ export const Services = () => {
           Bgcolor="#FECC09"
           color="#000"
         />
+
         <Cards
           cloud={CloudBlue}
           image={Img2}

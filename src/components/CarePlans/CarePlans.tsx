@@ -2,7 +2,7 @@ import SwipeableTextMobileStepper from "../Carousel/Carousel";
 
 export const CarePlans = () => {
   return (
-    <div className="flex flex-col mt-[100px] gap-7 relative max-w-[1460px]  m-auto">
+    <div className="flex flex-col mt-[50px] gap-7 relative max-w-[1460px]  m-auto">
       <div className="grid grid-cols-5 gap-10 ">
         <div className="w-full col-span-3">
           <SwipeableTextMobileStepper />

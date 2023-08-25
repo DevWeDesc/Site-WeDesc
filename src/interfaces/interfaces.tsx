@@ -26,7 +26,9 @@ export interface ICardsPlans {
 
 export interface ICardPlans {
   imagePlans: string;
+  colorImage: string;
   image: string;
+  titleImage: string;
   title: string;
-  description: string;
+  children: ReactNode;
 }
