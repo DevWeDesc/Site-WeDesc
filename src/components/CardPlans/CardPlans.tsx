@@ -1,4 +1,3 @@
-import React from "react";
 import { ICardPlans } from "../../interfaces/interfaces";
 
 export const CardPlans = ({
@@ -14,7 +13,10 @@ export const CardPlans = ({
       <div className="mt-10 py-2">
         <p
           className="px-4 w-auto py-2 rounded-tr-full rounded-br-full font-bold"
-          style={{ backgroundColor: colorImage }}
+          style={{
+            backgroundColor: colorImage,
+            color: colorImage === "#0CC0DF" ? "white" : "black",
+          }}
         >
           {imagePlans}
         </p>
