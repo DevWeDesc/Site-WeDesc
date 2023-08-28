@@ -7,8 +7,9 @@ import Image2 from "../../assets/Ellipse 16 (2).png";
 
 export const Coments = () => {
   return (
-    <div className="w-full h-[722px] overflow-hidden ">
-      <div className="w-full flex items-center relative gap-7 mt-[133px] mb-[233px]">
+    <div className="w-full h-[722px] overflow-hidden pl-20 ">
+      <div className="w-full flex items-center relative gap-7 pt-[133px] pb-[233px]">
+        <div className="w-[60%] h-full bg-gradient-to-r from-white to-[#868686] absolute z-[-5] right-[0px] shadow-2xl-[#C8C8C8]"></div>
         <img src={ComentsImage} className="mr-20" alt="" />
         <CardComents
           Avaliation={5}
@@ -44,7 +45,6 @@ export const Coments = () => {
           />
         </div>
       </div>
-      <div className="w-[60%] h-full bg-gradient-to-r from-white to-[#868686]  absolute top-[660vh] z-[-5] right-[0px] shadow-2xl-[#C8C8C8]"></div>
     </div>
   );
 };
