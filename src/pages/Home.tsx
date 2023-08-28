@@ -5,6 +5,7 @@ import { DescriptionCarePlans } from ".././components/DescriptionCarePlans/Descr
 import { Header } from ".././components/Header/Header";
 import { SubHeader } from ".././components/SubHeader/SubHeader";
 import { Contact } from "../components/Contact/Contact";
+import { Footer } from "../components/Footer/Footer";
 import { Partners } from "../components/Partners/Partners";
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
       <Coments />
       <Partners />
       <Contact />
+      <Footer />
     </div>
   );
 }
