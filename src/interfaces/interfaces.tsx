@@ -37,3 +37,10 @@ export interface ICardPlans {
 export interface ILinearWithValueLabel {
   ProgressValue: number;
 }
+
+export interface ICardComents {
+  Img: string;
+  Title: string;
+  Description: string;
+  Avaliation: number;
+}

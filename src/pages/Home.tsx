@@ -4,6 +4,7 @@ import { Coments } from ".././components/Coments/Coments";
 import { DescriptionCarePlans } from ".././components/DescriptionCarePlans/DescriptionCarePlans";
 import { Header } from ".././components/Header/Header";
 import { SubHeader } from ".././components/SubHeader/SubHeader";
+import { Partners } from "../components/Partners/Partners";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <DescriptionCarePlans />
       <Cases />
       <Coments />
+      <Partners />
     </div>
   );
 }
