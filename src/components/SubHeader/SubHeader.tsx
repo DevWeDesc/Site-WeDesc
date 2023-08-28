@@ -3,7 +3,7 @@ import IconButton from "../../assets/image (1).png";
 
 export const SubHeader = () => {
   return (
-    <div className="relative m-auto flex justify-center w-full">
+    <div id="Init" className="pt-10 relative m-auto flex justify-center w-full">
       <img className="  w-[1329px] h-[776px]" src={Vetor} alt="" />
       <div className="absolute w-full px-[193px] pt-[4rem] max-w-[1460px]">
         <div className="absolute flex items-start flex-col gap-5">

@@ -2,12 +2,14 @@ import { useState } from "react";
 import ImgButton from "../../assets/imgButtonNav.png";
 import { LiProps } from "../../interfaces/interfaces";
 
-const Li = ({ text, children, selected, onClick }: LiProps) => {
+const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
   return (
     <div>
       <li className="pr-10 cursor-pointer" onClick={onClick}>
-        {text}
-        {children}
+        <a href={Ref}>
+          {text}
+          {children}
+        </a>
       </li>
       {text === selected && (
         <p className="w-[38.17px] h-[2px] bg-gradient-to-r from-[#A14BD1] via-[#81D4E8]"></p>
@@ -17,21 +19,24 @@ const Li = ({ text, children, selected, onClick }: LiProps) => {
 };
 
 export const Nav = () => {
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState("Inicio");
   return (
     <nav>
       <ul className="flex items-center">
         <Li
+          Ref="#Init"
           text="Inicio"
           selected={selected}
           onClick={() => setSelected("Inicio")}
         />
         <Li
+          Ref="#Service"
           text="Nossos Serviços"
           selected={selected}
           onClick={() => setSelected("Nossos Serviços")}
         />
         <Li
+          Ref="#Plans"
           text="Planos de Atendimento"
           selected={selected}
           onClick={() => setSelected("Planos de Atendimento")}

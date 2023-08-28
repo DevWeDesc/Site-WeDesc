@@ -29,23 +29,14 @@ const images = [
     description:
       "Com foco nas empresas a partir de 40 funcionários, a Wedesc oferece um abrangente Serviço Full Service. Isso inclui atendimento personalizado, suporte avançado, gerenciamento de ameaças virtuais e muito mais. Deixe-nos cuidar da sua tecnologia para que você possa se concentrar no sucesso do seu negócio. Entre em contato para descobrir mais.",
   },
-  // {
-  //   title: "Bali, Indonesia",
-  //   imgPath:
-  //     "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250",
-  //   description: "",
-  // },
-  // {
-  //   title: "Goč, Serbia",
-  //   imgPath:
-  //     "https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60",
-  // },
 ];
 
 function SwipeableTextMobileStepper() {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = images.length;
+
+  console.log(activeStep);
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -105,6 +96,7 @@ function SwipeableTextMobileStepper() {
             </Button>
             {Math.abs(activeStep - index) <= 2 ? (
               <Grid
+                key={index}
                 p={2}
                 width="100%"
                 container
@@ -120,13 +112,23 @@ function SwipeableTextMobileStepper() {
                       width: "100%",
                     }}
                   >
-                    <CardCarouselPlans
-                      image={step.imgPath}
-                      title={step.title}
-                      description={step.description}
-                      Bgcolor="#075985"
-                      color="white"
-                    />
+                    {activeStep === 0 ? (
+                      <CardCarouselPlans
+                        image={images[0].imgPath}
+                        title={images[0].title}
+                        description={images[0].description}
+                        Bgcolor="#075985"
+                        color="white"
+                      />
+                    ) : (
+                      <CardCarouselPlans
+                        image={images[1].imgPath}
+                        title={images[1].title}
+                        description={images[1].description}
+                        Bgcolor="#075985"
+                        color="white"
+                      />
+                    )}
                   </Box>
                 </Grid>
                 <Grid item xs={6}>
@@ -139,9 +141,9 @@ function SwipeableTextMobileStepper() {
                     }}
                   >
                     <CardCarouselPlans
-                      image={step.imgPath}
-                      title={step.title}
-                      description={step.description}
+                      image={images[1].imgPath}
+                      title={images[1].title}
+                      description={images[1].description}
                       Bgcolor="#FECC09"
                       color="black"
                     />
@@ -164,7 +166,7 @@ function SwipeableTextMobileStepper() {
           </div>
         ))}
       </AutoPlaySwipeableViews>
-      <div className="flex justify-center mb-12">
+      <div id="Plans" className="flex justify-center mb-12">
         <MobileStepper
           sx={{ backgroundColor: "transparent" }}
           steps={maxSteps}

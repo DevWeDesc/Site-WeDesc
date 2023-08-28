@@ -37,7 +37,7 @@ export const DescriptionCarePlans = () => {
         </CardPlans>
         <CardPlans
           colorImage="#FECC09"
-          imagePlans="PLANO BISINESS"
+          imagePlans="PLANO BUSINESS"
           image={Image2}
           titleImage="Gerenciado e Remoto"
           title="Até 30 funcionários"

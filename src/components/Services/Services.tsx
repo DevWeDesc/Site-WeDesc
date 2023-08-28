@@ -12,7 +12,7 @@ export const Services = () => {
   return (
     <div className="flex flex-col gap-7 relative max-w-[1460px] px-[96px] m-auto">
       <div>
-        <h1 className="flex items-center justify-center text-[80px] font-bold text-white mt-5">
+        <h1 className="flex items-center justify-center text-[80px] font-bold text-white ">
           Serviços <img src={Rocket} alt="" />
         </h1>
         <div className="flex justify-center">

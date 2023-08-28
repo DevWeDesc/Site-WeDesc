@@ -3,7 +3,7 @@ import { Nav } from "../Nav/Nav";
 
 export const Header = () => {
   return (
-    <div className="max-w-[1460px] m-auto">
+    <div className="fixed z-10 bg-white w-full px-[110px] m-auto">
       <div className="w-screen h-[68px] px-[90px] flex justify-center max-w-[1460px]">
         <div className="flex justify-between px-4 py-[14px] items-center w-screen">
           <div>

@@ -30,11 +30,15 @@ export const About = () => {
               moldados pelas histórias de sucesso das empresas que ajudamos a
               impulsionar.
             </p>
+            <div id="Service"></div>
           </div>
         </div>
+
         <img src={lineService} className="absolute pt-[360px] w-full " alt="" />
         <img src={Rectangle} className="absolute pt-[402px] w-full " alt="" />
+
         <img src={Rectangle} className="absolute pt-[1002px] w-full " alt="" />
+
         <Services />
       </div>
     </div>
