@@ -56,6 +56,7 @@ function SwipeableTextMobileStepper() {
         border: "4px solid white",
         borderRadius: "30px",
         padding: "0px",
+        maxHeight: "778px",
       }}
     >
       <Paper

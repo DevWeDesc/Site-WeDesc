@@ -33,3 +33,7 @@ export interface ICardPlans {
   title: string;
   children: ReactNode;
 }
+
+export interface ILinearWithValueLabel {
+  ProgressValue: number;
+}
