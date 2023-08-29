@@ -54,7 +54,7 @@ export const Contact = () => {
           <textarea
             name=""
             id=""
-            className="bg-transparent border-[1px] border-black rounded-lg min-w-full min-h-[60%]"
+            className="bg-transparent border-[1px] border-black rounded-lg min-w-full min-h-[60%] p-2 outline-none"
           ></textarea>
         </div>
       </div>

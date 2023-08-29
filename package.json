@@ -20,7 +20,8 @@
     "react-dom": "^18.2.0",
     "react-swipeable-views": "^0.14.0",
     "react-swipeable-views-core": "^0.14.0",
-    "react-swipeable-views-utils": "^0.14.0"
+    "react-swipeable-views-utils": "^0.14.0",
+    "swiper": "^10.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

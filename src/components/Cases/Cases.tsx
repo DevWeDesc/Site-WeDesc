@@ -1,4 +1,5 @@
 import LinearWithValueLabel from "../Progress/Progress";
+import { SwiperCase } from "../SwiperCase/SwiperCase";
 import CircularWithValueLabel from "../ValueProgress/ValueProgress";
 
 export const Cases = () => {
@@ -20,8 +21,8 @@ export const Cases = () => {
             elevar negócios por meio da excelência tecnológica.
           </p>
         </div>
-        <div className="flex w-full pl-[136px] pt-7">
-          <div className="w-[500px] h-[250px] bg-black"></div>
+        <div className="flex w-full pt-7">
+          <SwiperCase />
         </div>
       </div>
       <div className="bg-[#09001C] w-full flex flex-col h-[778px] items-center text-white justify-evenly">
