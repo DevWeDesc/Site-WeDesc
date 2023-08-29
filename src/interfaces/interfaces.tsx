@@ -44,3 +44,8 @@ export interface ICardComents {
   Description: string;
   Avaliation: number;
 }
+
+export interface ICircularProgressWithLabel {
+  ValueCircular: number;
+  ValueProgress: number;
+}

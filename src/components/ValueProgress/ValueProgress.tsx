@@ -3,11 +3,7 @@ import CircularProgress, {
 } from "@mui/material/CircularProgress";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-
-interface ICircularProgressWithLabel {
-  ValueCircular: number;
-  ValueProgress: number;
-}
+import { ICircularProgressWithLabel } from "../../interfaces/interfaces";
 
 function CircularProgressWithLabel(
   props: CircularProgressProps & { value: number; valueProgress: number }

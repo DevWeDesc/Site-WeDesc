@@ -3,7 +3,6 @@ import { ComentsData } from "./ComentsData";
 import Title from "../../assets/Titulo.png";
 import { motion } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
-//import { RefObject } from "react";
 
 export const Coments = () => {
   const carouselRef = useRef<HTMLDivElement | null>(null);
