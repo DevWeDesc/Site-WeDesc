@@ -8,7 +8,7 @@ export const CardComents = ({
   Avaliation,
 }: ICardComents) => {
   return (
-    <div className="w-[479px] h-[302px] p-10 rounded-lg bg-[#262626] flex flex-col gap-6 text-white">
+    <div className="w-[379px] h-[302px] p-10 rounded-lg bg-[#262626] flex flex-col gap-6 text-white">
       <div className="flex items-center gap-2">
         <img src={Img} className="rounded-full w-[74px] h-[74px]" alt="" />
         <div className="flex flex-col text-white gap-1">

@@ -1,9 +1,25 @@
 import Vetor from "../../assets/todos vetores.png";
 import IconButton from "../../assets/image (1).png";
+// import video from "../../assets/titulo e servidor mp4.mp4";
+// import video2 from "../../assets/vetores mp4.mp4";
 
 export const SubHeader = () => {
   return (
     <div id="Init" className="pt-10 relative m-auto flex justify-center w-full">
+      {/* <video
+        src={video}
+        className="w-[1329px] h-[776px] m-auto bg-transparent"
+        autoPlay
+        muted
+        loop
+      ></video>
+      <video
+        src={video2}
+        className="border-[0px] relative top-[-300px] w-[1329px] h-[776px] bg-transparent m-auto"
+        autoPlay
+        muted
+        loop
+      ></video> */}
       <img className="  w-[1329px] h-[776px]" src={Vetor} alt="" />
       <div className="absolute w-full px-[193px] pt-[4rem] max-w-[1460px]">
         <div className="absolute flex items-start flex-col gap-5">
