@@ -4,7 +4,7 @@ import Icon3 from "../../assets/Vector (5).png";
 
 export const Contact = () => {
   return (
-    <div className="w-[80%] m-auto flex flex-col mt-20">
+    <div className="w-[80%] m-auto flex flex-col ">
       <div className="flex justify-center items-center gap-5 py-10">
         <p className="w-[25%] h-[2px] bg-[#FECC09]"></p>
         <h1 className="text-5xl font-bold text-[#FECC09]">Contato</h1>

@@ -42,6 +42,7 @@ export const Nav = () => {
           onClick={() => setSelected("Planos de Atendimento")}
         />
         <Li
+          Ref="#Contact"
           text="Contato"
           selected={selected}
           onClick={() => setSelected("Contato")}
