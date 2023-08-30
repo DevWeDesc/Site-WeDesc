@@ -21,7 +21,7 @@ export const Coments = () => {
       <div className="w-full flex items-center relative gap-7 pt-[133px] pb-[233px]">
         <div className="w-[60%] h-full bg-gradient-to-r from-white to-[#868686] absolute z-[-5] right-[0px] shadow-2xl-[#C8C8C8]"></div>
         <img src={Title} className="mr-20" alt="" />
-        <div className="w-full max-w-[1100px]">
+        <div className="w-full 2xl:max-w-[2235px] xl:max-w-[1100px]">
           <motion.div
             ref={carouselRef}
             whileTap={{ cursor: "grabbing" }}

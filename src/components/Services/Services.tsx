@@ -26,7 +26,7 @@ export const Services = () => {
           </p>
         </div>
       </div>
-      <div className="flex w-full gap-[66px] mt-5 justify-between">
+      <div className="flex w-full gap-[66px] mt-5 justify-between ">
         <Cards
           cloud={CloudWhite}
           image={Img1}

@@ -37,7 +37,11 @@ export const About = () => {
         <img src={lineService} className="absolute pt-[360px] w-full " alt="" />
         <img src={Rectangle} className="absolute pt-[402px] w-full " alt="" />
 
-        <img src={Rectangle} className="absolute pt-[1002px] w-full " alt="" />
+        <img
+          src={Rectangle}
+          className="absolute lg:pt-[1500px] 2xl:pt-[1002px] w-full "
+          alt=""
+        />
 
         <Services />
       </div>

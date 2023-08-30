@@ -1,13 +1,28 @@
-import Vetor from "../../assets/todos vetores.png";
-import IconButton from "../../assets/image (1).png";
+// import Vetor from "../../assets/todos vetores.png";
+// import IconButton from "../../assets/image (1).png";
+import Video from "../../assets/titulo e servidor mp4.mp4";
+//import Video2 from "../../assets/vetores 2 quicktime.mov";
 
 export const SubHeader = () => {
   return (
-    <div id="Init" className="pt-10 relative m-auto flex justify-center w-full">
-      <img className="  w-[1329px] h-[776px]" src={Vetor} alt="" />
-      <div className="absolute w-full px-[193px] pt-[4rem] max-w-[1460px]">
-        <div className="absolute flex items-start flex-col gap-5">
-          <h1 className="text-[45px] leading-[65px] max-w-[407px] font-bold text-white">
+    <div
+      id="Init"
+      className="pt-20 relative m-auto flex justify-center lg:max-w-[1460px]"
+    >
+      <video src={Video} autoPlay muted loop></video>
+      {/* {
+        <video
+          src={Video2}
+          autoPlay
+          muted
+          loop
+          className="relative top-[-20px]"
+        ></video>
+      } */}
+      {/* <img className="lg:w-[90%]  w-full" src={Vetor} alt="" /> */}
+      <div className="absolute w-full px-[12%] pt-[5%] max-w-[1460px]">
+        {/* <div className="absolute flex items-start flex-col lg:gap-5">
+          <h1 className="lg:text-[45px] leading-[65px] lg:max-w-[407px] font-bold text-white">
             Nós Somos a WeDesc
           </h1>
           <div>
@@ -23,7 +38,7 @@ export const SubHeader = () => {
             Conhecer nossos planos
             <img src={IconButton} alt="" />
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

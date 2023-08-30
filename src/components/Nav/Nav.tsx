@@ -21,8 +21,8 @@ const Li = ({ Ref, text, children, selected, onClick }: LiProps) => {
 export const Nav = () => {
   const [selected, setSelected] = useState("Inicio");
   return (
-    <nav>
-      <ul className="flex items-center">
+    <nav className="hidden lg:flex">
+      <ul className="flex items-center ">
         <Li
           Ref="#Init"
           text="Inicio"

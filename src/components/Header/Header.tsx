@@ -3,12 +3,17 @@ import { Nav } from "../Nav/Nav";
 
 export const Header = () => {
   return (
-    <div className="fixed z-10 m-auto bg-white w-full px-[110px] ">
-      <div className="w-screen h-[68px] px-[90px] flex justify-center m-auto max-w-[1460px]">
-        <div className="flex justify-between px-4 py-[14px] items-center w-screen">
+    <div className="fixed z-10 w-screen h-[68px] px-0 lg:px-[8%] flex justify-between bg-white">
+      <div className="w-screen h-[68px] sm:w-full lg:px-[90px] flex justify-center m-auto 2xl:max-w-[1460px]">
+        <div className="sm:w-full flex justify-between px-4 py-[14px] items-center w-screen">
           <div>
-            <img className="h-7" src={Logo} alt="" />
+            <img className="lg:h-7" src={Logo} alt="" />
           </div>
+          <img
+            className="w-12 lg:hidden"
+            src="https://cdn-icons-png.flaticon.com/128/11029/11029054.png"
+            alt=""
+          />
           <Nav />
         </div>
       </div>
